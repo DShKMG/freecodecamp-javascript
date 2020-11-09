@@ -16,3 +16,12 @@ let alphabetRegexV2 = /\w/ig; // Change this line
 let result = quoteSample.match(alphabetRegexV2).length;
 console.log(result);
 console.log(quoteSample.length);
+
+const arr = [2, 4, 5, 1, 7, 5, 2, 1];
+
+arr.reduce(
+    (first, sum) => {
+        return first + sum;
+    }
+
+)
