@@ -1,5 +1,5 @@
 function bouncer(arr) {
-    console.log(arr.filter(!(Boolean)));
+    console.log(arr.filter(Boolean));
     return arr;
 }
 
